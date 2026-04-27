@@ -1,6 +1,6 @@
 function FooterNavlinkItemComics() {
     return (
-        <div>
+        <div className="dc-comics">
             <h3 className="to-upper-case">dc comics</h3>
             <ul>
                 <li>
@@ -31,7 +31,7 @@ function FooterNavlinkItemComics() {
 
 function FooterNavlinkItemShop() {
     return (
-        <div>
+        <div className="shop">
             <h3 className="to-upper-case">shop</h3>
             <ul>
                 <li>
@@ -47,7 +47,7 @@ function FooterNavlinkItemShop() {
 
 function FooterNavlinkDC() {
     return (
-        <div>
+        <div className="dc">
             <h3 className="to-upper-case">dc</h3>
             <ul>
                 <li>
@@ -90,7 +90,7 @@ function FooterNavlinkDC() {
 
 function FooterNavlinkSites() {
     return (
-        <div>
+        <div className="sites">
             <h3 className="to-upper-case">sites</h3>
                         <ul>
                 <li>

@@ -2,12 +2,10 @@ import SocialLinks from "./Social";
 
 function FooterSectionSocial() {
     return (
-        <section>
+        <section className="section-socials">
             <div className="container">
-                <div>
-                    <button className="to-upper-case">sign-up now!</button>
-                    <SocialLinks />
-                </div>
+                <button className="to-upper-case">sign-up now!</button>
+                <SocialLinks />
             </div>
         </section>
     );

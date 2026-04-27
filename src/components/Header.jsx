@@ -4,7 +4,7 @@ function Header() {
     return (
         <header>
             <div className="container">
-                <div>
+                <div className="img-container">
                     <img src="/img/dc-logo.png" alt="" />
                 </div>
                 <HeaderNav />

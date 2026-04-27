@@ -2,7 +2,7 @@ import FooterListaMerch from "./FooterListaMerch";
 
 function FooterSectionMerch() {
     return (
-        <section>
+        <section className="section-merch">
             <div className="container">
                 <FooterListaMerch />
             </div>

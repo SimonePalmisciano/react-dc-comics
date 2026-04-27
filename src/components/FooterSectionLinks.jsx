@@ -2,7 +2,7 @@ import FooterNavlinks from "./FooterNavlinks";
 
 function FooterSectionLinks() {
     return (
-        <section>
+        <section className="section-navlinks">
             <div className="container">
                 <FooterNavlinks />
             </div>

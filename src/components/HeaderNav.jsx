@@ -2,7 +2,7 @@ import HeaderNavList from "./HeaderNavlist";
 
 function HeaderNav() {
     return (
-        <nav>
+        <nav className="header-navbar">
             <HeaderNavList/>
         </nav>
     );

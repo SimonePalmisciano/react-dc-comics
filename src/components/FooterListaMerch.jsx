@@ -1,11 +1,38 @@
-import FooterListaMerchItem from "./FooterListaMerchItem";
-
 function FooterListaMerch() {
     return (
-        <div>
+        <div className="list-merch">
             <ul>
                 <li>
-                    <FooterListaMerchItem />
+                    <a href="#">
+                        <div>
+                            <img src="/img/comics-digital.png" alt="" />
+                        </div>
+                        <p>digital comics</p>
+                    </a>
+                    <a href="#">
+                        <div>
+                            <img src="/img/comics-merchandise.png" alt="" />
+                        </div>
+                        <p>dc merchandise</p>
+                    </a>
+                    <a href="#">
+                        <div>
+                            <img src="/img/subscriptions.png" alt="" />
+                        </div>
+                        <p>subscription</p>
+                    </a>
+                    <a href="#">
+                        <div>
+                            <img src="/img/comics-shop.png" alt="" />
+                        </div>
+                        <p>comic shop locator</p>
+                    </a>
+                    <a href="#">
+                        <div>
+                            <img src="/img/dc-power-visa.svg" alt="" />
+                        </div>
+                        <p>dc power visa</p>
+                    </a>
                 </li>
             </ul>
         </div>
