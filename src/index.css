@@ -97,7 +97,7 @@ main {
         align-items: center;
     }
 
-    .list-merch li a{
+    .list-merch li a {
         color: white;
         text-transform: uppercase;
         display: flex;
@@ -114,10 +114,15 @@ main {
     background-image: url(/img/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: top;
+    background-position: right center, top;
     color: white;
 
     .container {
+        background-image: url(/img/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: right center;
+
         height: 400px;
         padding-top: 20px;
         display: flex;
@@ -132,7 +137,7 @@ main {
         margin-bottom: 15px;
     }
 
-    li a{
+    li a {
         color: rgb(156, 156, 156);
         font-size: 14px;
     }
