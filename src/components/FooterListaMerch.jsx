@@ -3,3 +3,5 @@ function FooterListaMerch() {
         
     );
 }
+
+export default FooterListaMerch;

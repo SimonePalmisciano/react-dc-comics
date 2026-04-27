@@ -34,3 +34,5 @@ function HeaderNavList() {
         </ul>
     );
 }
+
+export default HeaderNavList;
