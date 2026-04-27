@@ -3,10 +3,12 @@ import HeaderNav from "./HeaderNav";
 function Header() {
     return (
         <header>
-            <div>
-                <img src="/img/dc-logo.png" alt="" />
+            <div className="container">
+                <div>
+                    <img src="/img/dc-logo.png" alt="" />
+                </div>
+                <HeaderNav />
             </div>
-            <HeaderNav/>
         </header>
     );
 }

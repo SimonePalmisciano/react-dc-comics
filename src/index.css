@@ -1,0 +1,25 @@
+/* RESET CSS */
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* CONTAINER */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+

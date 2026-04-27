@@ -1,6 +1,8 @@
 function Main() {
     return <>
-        <h1>-- Content goes here --</h1>
+        <div className="container">
+            <h1>-- Content goes here --</h1>
+        </div>
     </>;
 }
 

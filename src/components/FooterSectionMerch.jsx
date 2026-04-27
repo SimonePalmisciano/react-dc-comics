@@ -1,9 +1,11 @@
 import FooterListaMerch from "./FooterListaMerch";
 
-function FooterSectionMerch () {
+function FooterSectionMerch() {
     return (
         <section>
-            <FooterListaMerch/>
+            <div className="container">
+                <FooterListaMerch />
+            </div>
         </section>
     );
 }
