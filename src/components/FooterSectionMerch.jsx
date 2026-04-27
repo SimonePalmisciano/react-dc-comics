@@ -8,4 +8,4 @@ function FooterSectionMerch () {
     );
 }
 
-export default FooterListaMerch;
+export default FooterSectionMerch;
