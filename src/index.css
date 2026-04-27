@@ -16,6 +16,11 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+    width: 100%;
+}
+
 /* CONTAINER */
 
 .container {
@@ -24,6 +29,55 @@ a {
 }
 
 /****************************************
+**************** UTILITY ****************
+****************************************/
+
+.to-upper-case {
+    text-transform: uppercase;
+}
+
+
+/****************************************
 **************** HEADER *****************
 ****************************************/
 
+header {
+    height: 120px;
+
+    .container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .img-container {
+        width: 80px;
+    }
+
+    .header-navbar ul{
+        display: flex;
+        gap: 15px;
+    }
+}
+
+/****************************************
+**************** MAIN *******************
+****************************************/
+
+main {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+/****************************************
+**************** FOOTER *****************
+****************************************/
+
+.section-merch {
+    background-color: #0282F9;
+}
