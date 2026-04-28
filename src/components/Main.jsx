@@ -5,10 +5,12 @@ const fumettiJsx = comics.map(fumetto => {
     const { id, title, description, thumb, price, series } = fumetto;
     return (
         <li key={id}>
-            <div className="img-fumetti-container">
-                <img src={ thumb } alt={ title } />
+            <div className="card-fumetti">
+                <div className="img-fumetti">
+                    <img src={thumb} alt={title} />
+                </div>
+                <p>{series}</p>
             </div>
-            <p>{ series }</p>
         </li>
     );
 })
@@ -23,8 +25,13 @@ function Main() {
                     <div className="container-comics">
                         <div className="miniBanner">CURRENT SERIES</div>
                         <ul>
-                            { fumettiJsx }
+                            {fumettiJsx}
                         </ul>
+                    </div>
+                    <div className="btn-container">
+                        <button className="btn-load-more">
+                            LOAD MORE
+                        </button>
                     </div>
                 </div>
             </section>

@@ -82,12 +82,25 @@ section.all-bg {
 
 section.all-bg+section {
     background-color: #1C1C1C;
-    padding-top: 40px;
-    padding-bottom: 40px;
+}
+
+.card-fumetti {
+    height: 180px;
+
+    .img-fumetti {
+        height: 100%;
+        overflow: hidden;
+
+        img {
+            overflow: hidden;
+        }
+    }
 }
 
 .container-comics {
     position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
 
     .miniBanner {
         position: absolute;
@@ -97,7 +110,7 @@ section.all-bg+section {
         padding: 10px 25px;
         top: 0;
         left: 0;
-        transform: translate(0%, -120%);
+        transform: translate(0%, -50%);
     }
 
     ul {
@@ -116,9 +129,17 @@ section.all-bg+section {
             }
         }
     }
+}
 
-    .img-fumetti-container {
-        width: 100px;
+.btn-container {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 20px;
+
+    .btn-load-more {
+        background-color: #0282F9;
+        color: white;
+        padding: 10px 60px;
     }
 }
 
