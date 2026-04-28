@@ -1,12 +1,20 @@
-import HeaderNavList from "./HeaderNavlist";
+import { headerNavLinks } from "../data/headerlinks";
 
 function HeaderNav() {
     return (
         <nav className="header-navbar to-upper-case">
-            <HeaderNavList/>
+            <ul>
+                {headerNavLinks.map(link => {
+                    const { id, text, url } = link;
+                    return (
+                        <li key={ id }>
+                            <a href={ url }>{ text }</a>
+                        </li>
+                    );
+                })}
+            </ul>
         </nav>
     );
 }
 
-console.log(HeaderNav());
 export default HeaderNav;
