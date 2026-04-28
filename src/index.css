@@ -21,6 +21,15 @@ img {
     width: 100%;
 }
 
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 75;
+}
+
 /* CONTAINER */
 
 .container {
@@ -85,10 +94,10 @@ section.all-bg+section {
         color: white;
         font-size: 30px;
         background-color: #0282F9;
-        padding: 15px 25px;
+        padding: 10px 25px;
         top: 0;
         left: 0;
-        transform: translate(0%, -110%);
+        transform: translate(0%, -120%);
     }
 
     ul {
