@@ -21,6 +21,7 @@ function Main() {
             <section>
                 <div className="container">
                     <div className="container-comics">
+                        <div className="miniBanner">CURRENT SERIES</div>
                         <ul>
                             { fumettiJsx }
                         </ul>
