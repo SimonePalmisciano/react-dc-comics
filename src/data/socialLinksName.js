@@ -1,4 +1,4 @@
-const socialLinks = [
+const socialLinksName = [
     {
         id: 1,
         src: '/img/footer-facebook.png',
@@ -24,11 +24,11 @@ const socialLinks = [
         link: '#'
     },
     {
-        id: 1,
+        id: 5,
         src: '/img/footer-periscope.png',
         name: 'periscope',
         link: '#'
     },
 ];
 
-export {socialLinks};
+export { socialLinksName };

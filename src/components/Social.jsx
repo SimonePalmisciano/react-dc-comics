@@ -1,33 +1,20 @@
-function SocialLinks () {
+import { socialLinksName } from "../data/socialLinksName";
+
+function SocialLinks() {
     return (
         <div className="socials">
             <h3 className="to-upper-case">follow us</h3>
             <ul>
-                <li>
-                    <a href="#">
-                        <img src="/img/footer-facebook.png" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="/img/footer-twitter.png" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="/img/footer-youtube.png" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="/img/footer-pinterest.png" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="/img/footer-periscope.png" alt="" />
-                    </a>
-                </li>
+                {socialLinksName.map(social => {
+                    const { id, src, name, link } = social;
+                    return (
+                        <li key={ id }>
+                            <a href={ link }>
+                                <img src={ src } alt={ name } />
+                            </a>
+                        </li>
+                    );
+                })}
             </ul>
         </div>
     );
