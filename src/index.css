@@ -66,12 +66,37 @@ header {
 **************** MAIN *******************
 ****************************************/
 
-main {
-    height: 150px;
-    display: flex;
-    align-items: center;
-    background-color: black;
-    color: white;
+section.all-bg {
+    height: 450px;
+    background-image: url(/img/jumbotron.jpg);
+}
+
+section.all-bg + section {
+    background-color: #1C1C1C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.container-comics {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        color: white;
+
+        li {
+            flex-basis: calc((100% / 6) - (30px * 5) / 6);
+
+            p {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .img-fumetti-container {
+        width: 100px;
+    }
 }
 
 /****************************************
