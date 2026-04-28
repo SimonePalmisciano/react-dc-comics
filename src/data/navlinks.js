@@ -1,112 +1,162 @@
 const dcComicsLinks = [
     {
         id: 1,
-        text: 'Characters'
+        text: 'Characters',
+        url: '#'
+
     },
     {
         id: 2,
-        text: 'Comics'
+        text: 'Comics',
+        url: '#'
+
     },
     {
         id: 3,
-        text: 'Movies'
+        text: 'Movies',
+        url: '#'
+
     },
     {
         id: 4,
-        text: 'TV'
+        text: 'TV',
+        url: '#'
+
     },
     {
         id: 5,
-        text: 'Games'
+        text: 'Games',
+        url: '#'
+
     },
     {
         id: 6,
-        text: 'Videos'
+        text: 'Videos',
+        url: '#'
+
     },
     {
         id: 7,
-        text: 'News'
+        text: 'News',
+        url: '#'
+
     },
 ];
 
 const shopLinks = [
     {
         id: 1,
-        text: 'Shop DC'
+        text: 'Shop DC',
+        url: '#'
+
     },
     {
         id: 2,
-        text: 'Shop DC Collectibles'
+        text: 'Shop DC Collectibles',
+        url: '#'
+
     },
 ];
 
 const dcLinks = [
     {
         id: 1,
-        text: 'Terms Of Use'
+        text: 'Terms Of Use',
+        url: '#'
+
     },
     {
         id: 2,
-        text: 'Privacy policy'
+        text: 'Privacy policy',
+        url: '#'
+
     },
     {
         id: 3,
-        text: 'Ad Choice'
+        text: 'Ad Choice',
+        url: '#'
+
     },
     {
         id: 4,
-        text: 'Advertising'
+        text: 'Advertising',
+        url: '#'
+
     },
     {
         id: 5,
-        text: 'Jobs'
+        text: 'Jobs',
+        url: '#'
+
     },
     {
         id: 6,
-        text: 'Subscriptions'
+        text: 'Subscriptions',
+        url: '#'
+
     },
     {
         id: 7,
-        text: 'Talent Workshop'
+        text: 'Talent Workshop',
+        url: '#'
+
     },
     {
         id: 8,
-        text: 'CPSC Certificates'
+        text: 'CPSC Certificates',
+        url: '#'
+
     },
     {
         id: 9,
-        text: 'Ratings'
+        text: 'Ratings',
+        url: '#'
+
     },
     {
         id: 10,
-        text: 'Shop Help'
+        text: 'Shop Help',
+        url: '#'
+
     },
     {
         id: 11,
-        text: 'Contact us'
+        text: 'Contact us',
+        url: '#'
+
     },
 ];
 
 const sitesLinks = [
     {
         id: 1,
-        text: 'DC'
+        text: 'DC',
+        url: '#'
+
     },
     {
         id: 2,
-        text: 'MAD Magazine'
+        text: 'MAD Magazine',
+        url: '#'
+
     },
     {
         id: 3,
-        text: 'DC Kids'
+        text: 'DC Kids',
+        url: '#'
+
     },
     {
         id: 4,
-        text: 'DC Universe'
+        text: 'DC Universe',
+        url: '#'
+
     },
     {
         id: 5,
-        text: 'DC Power Visa'
+        text: 'DC Power Visa',
+        url: '#'
+
     },
 ];
 
