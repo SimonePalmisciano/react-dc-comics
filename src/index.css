@@ -45,6 +45,10 @@ body {
     text-transform: uppercase;
 }
 
+.d-none {
+    display: none;
+}
+
 
 /****************************************
 **************** HEADER *****************
@@ -86,13 +90,17 @@ section.all-bg+section {
 
 .card-fumetti {
     height: 180px;
+    margin-bottom: 20px;
 
     .img-fumetti {
         height: 100%;
         overflow: hidden;
 
         img {
-            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
         }
     }
 }
@@ -123,6 +131,8 @@ section.all-bg+section {
 
         li {
             flex-basis: calc((100% / 6) - (30px * 5) / 6);
+            flex-grow: 0;
+            flex-shrink: 0;
 
             p {
                 margin-top: 10px;

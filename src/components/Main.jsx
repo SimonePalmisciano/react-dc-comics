@@ -1,16 +1,13 @@
 import comics from "../data/comics.js";
+import CardFumetto from "./CardFumetto.jsx";
 
 
 const fumettiJsx = comics.map(fumetto => {
-    const { id, title, description, thumb, price, series } = fumetto;
     return (
-        <li key={id}>
-            <div className="card-fumetti">
-                <div className="img-fumetti">
-                    <img src={thumb} alt={title} />
-                </div>
-                <p>{series}</p>
-            </div>
+        <li key={ fumetto.id }>
+            <CardFumetto
+                fumetto = { fumetto }
+            />
         </li>
     );
 })
