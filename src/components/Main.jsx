@@ -1,17 +1,6 @@
 import comics from "../data/comics.js";
 import CardFumetto from "./CardFumetto.jsx";
 
-
-const fumettiJsx = comics.map(fumetto => {
-    return (
-        <li key={ fumetto.id }>
-            <CardFumetto
-                fumetto = { fumetto }
-            />
-        </li>
-    );
-})
-
 function Main() {
     return <>
         <main>
@@ -22,7 +11,15 @@ function Main() {
                     <div className="container-comics">
                         <div className="miniBanner">CURRENT SERIES</div>
                         <ul>
-                            {fumettiJsx}
+                            {comics.map(fumetto => {
+                                return (
+                                    <li key={fumetto.id}>
+                                        <CardFumetto
+                                            fumetto={fumetto}
+                                        />
+                                    </li>
+                                );
+                            })}
                         </ul>
                     </div>
                     <div className="btn-container">
