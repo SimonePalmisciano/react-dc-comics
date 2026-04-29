@@ -1,4 +1,4 @@
-import { socialLinksName } from "../data/socialLinksName";
+import { socialLinksName } from "../../data/socialLinksName";
 
 function SocialLinks() {
     return (

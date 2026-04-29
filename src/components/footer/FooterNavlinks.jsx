@@ -2,8 +2,7 @@ import {
     dcComicsLinks,
     shopLinks,
     dcLinks,
-    sitesLinks
-} from "../data/navlinks";
+    sitesLinks } from "../../data/navlinks.js"
 
 
 function FooterNavlinkItemComics() {

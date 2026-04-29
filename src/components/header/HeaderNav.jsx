@@ -1,4 +1,4 @@
-import { headerNavLinks } from "../data/headerlinks";
+import { headerNavLinks } from "../../data/headerlinks";
 
 function HeaderNav() {
     return (

@@ -1,4 +1,4 @@
-import { navListaMerchLinks } from "../data/listaMerchFooter";
+import { navListaMerchLinks } from "../../data/listaMerchFooter";
 import CardMerch from "./CardMerch";
 
 function FooterListaMerch() {

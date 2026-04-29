@@ -1,4 +1,4 @@
-import comics from "../data/comics.js";
+import comics from "../../data/comics.js";
 import CardFumetto from "./CardFumetto.jsx";
 
 function Main() {
